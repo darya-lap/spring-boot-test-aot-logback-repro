@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="REPRO" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>REPRO %level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="REPRO"/>
+    </root>
+</configuration>
